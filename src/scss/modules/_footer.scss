@@ -1,0 +1,73 @@
+footer {
+    background-image: url(../../../public/images/footer_background.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+    .deco{
+        background-image: url(../../../public/images/footer_bottom_decoration_img.png);
+        width: 100%;
+        height: 1vh;
+
+    }
+    .col-lg-4{
+        
+    }
+
+    .content{
+        flex-wrap: wrap;
+        width: 100%;
+        a{
+           
+            text-decoration: none;
+            color: white;
+        }
+        i{
+            font-size: 1.5rem;
+            
+            
+        }
+        span, {
+            background-color: $redChef;
+            padding: 10px;
+            border-radius: 20px;
+            border: solid 1px white;
+            margin: 10px;
+        }
+        .poptags{
+            .row{
+                display: flex;
+                flex-wrap: nowrap;
+                
+            }
+
+        }
+    }
+
+    .ftrred{
+        width: 100%;
+        height: 11vh;
+        background-color: $redChef;
+        .hiderCopy{
+            visibility: hidden;
+        }
+
+        @media screen and (min-width:320px) and (max-width:720px) {
+
+            .hiderCopy{
+                visibility: visible;
+                color: rgba(255, 255, 255, 0.797);
+                text-align: center;
+                justify-content: center;
+                align-items: center !important;
+                font-size: 15px;
+
+
+            }
+            
+        }
+    }
+
+}

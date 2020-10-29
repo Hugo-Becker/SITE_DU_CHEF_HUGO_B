@@ -1,0 +1,151 @@
+.booktable{
+    background-image: url(../../../public/images/main_bg.jpg);
+    padding: 7% 0;
+
+    .titreBlog{
+        background-image: url(../../../public/images/decoration_line.png);
+        background-repeat: no-repeat;
+        background-position:bottom ;
+    }
+    
+    .sheet{
+        font-family: "Courgette";
+        border: solid rgba(185, 185, 185, 0.466) 1px;
+        margin: 0 5%;
+        
+        
+        .telnum{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: wheat;
+            font-weight: light;
+            .p{
+                font-weight: lighter;
+                font-size: 20px;
+
+            }
+            .h5{
+
+                font-weight: inherit;
+
+            }
+        }
+        
+        span.display-4{
+            color: $redChef;
+        }
+        p+img{
+            margin-top: -20px;
+        }
+        .formcontain {
+            background-image:url(../../../public/images/book_table_bg.jpg);
+            width: 60vw;
+            border-radius: 20px;
+
+
+        }
+        form{
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+            // background-image:url(../../../public/images/book_table_bg.jpg);
+            ::placeholder{
+                color: rgba(0, 0, 0, 0.733);
+            }
+        }
+        button{
+            background-color: $redChef;
+            border-radius: 30px !important;
+            text-decoration: none;
+            color: white;
+
+            
+
+        }
+
+        .cardz{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            .card{
+                border: none;
+                padding: 0 5px;
+
+                
+        
+            }
+
+            .2ndCol{
+                
+            }
+            img{
+                
+                border: solid 6px rgba(187, 186, 186, 0.543);
+                border-radius: 30px;
+            }
+
+            .lrm{
+                font-weight: bold;
+            }
+
+            .socialnum{
+                background-color: $redChef;
+                color: rgba(255, 255, 255, 0.788);
+                margin-top: -40px;
+                padding: 10px 0;
+                border-radius: 10px;
+                font-size: 20px;
+                font-weight: lighter;
+                text-align: center;
+                
+                span{
+                    font-size: 35px;
+                    font-weight:bolder ;
+                    color: white;
+
+                }
+                
+            }
+        }
+
+    }
+    button{
+        background-color: $redChef;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-decoration: none;
+        border-radius: 30px !important;
+
+        
+       
+
+
+
+    }
+
+    // deco bord gris 
+
+    .box-left-top-grey{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .box-right-top-grey{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .box-bottom-left-grey{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .box-bottom-right-grey{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+
+    @media screen and (min-width:320px) and (max-width:613px) {
+
+        .box-bottom-right-grey, .box-bottom-left-grey, .box-right-top-grey, .box-left-top-grey{
+            display: none;
+        }
+        
+    }
+}
